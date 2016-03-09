@@ -94,7 +94,7 @@ public class SpaceCustomizationService {
             try {
                 RequestLifeCycle.end();
             } catch (Exception e) {
-                LOG.warn("An exception has occurred while proceed RequestLifeCycle.end() : " + e.getMessage());
+                LOG.warn("An exception has occurred while proceed RequestLifeCycle.end() : " + e.getMessage(), e);
             }
         }
     }
