@@ -13,6 +13,15 @@
   <packaging>pom</packaging>
   <name>Demo Set for ExoPlatform 4</name>
   <description>Demo Set for ExoPlatform 4</description>
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <id>repository.exoplatform.org</id>
+      <url>https://repository.exoplatform.org/public</url>
+    </repository>
+  </repositories>
   <developers>
     <developer>
       <id>benjamin.paillereau</id>
